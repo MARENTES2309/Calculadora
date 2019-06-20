@@ -40,4 +40,9 @@ $(document).ready(function(){
         }
     
     })
+    $(".pon").click(function(){
+        var conv=$(".text").val();
+        var res=parseFloat(conv)*-1;
+        $(".text").val(res);
+    })
 });
